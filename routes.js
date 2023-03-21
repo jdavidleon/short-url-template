@@ -1,6 +1,6 @@
 const express = require('express');
 const validUrl = require('valid-url');
-const Url = require('../models/Url');
+const Url = require('./model-url.js');
 const bodyParser = require('body-parser');
 const { nanoid } = require('nanoid');
 const dns = require('node:dns');
