@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const connectDB = require('./db');
-const routes = require('./routes/routes');
+const routes = require('./routes');
 
 
 /*   BASIC CONGIFURARION   */
